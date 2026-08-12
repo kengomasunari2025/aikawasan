@@ -1,0 +1,483 @@
+@media screen and (min-width: 768px) {
+  .full {
+    width: 100%;
+    display: flex;
+  }
+  .half {
+    width: 50%;
+    display: block;
+  }
+  .fv-left-text {
+    font-size: 32px;
+  }
+  .fv-right-1-text {
+    font-size: 20px;
+  }
+  .w-640 {
+    width: 640px;
+  }
+  .news-card {
+    width: 1140px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-100px);
+    position: relative;
+    z-index: 100;
+    margin-bottom: -70px;
+  }
+  .bg-white {
+    position: relative;
+    z-index: 100;
+  }
+  .eleven-cards {
+    width: 1100px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  .six-cards {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .flow-img-width {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .qa-width {
+    width: 968px;
+    margin: 0 auto;
+  }
+  .subete-p {
+    font-size: 19px;
+  }
+  .zero-p {
+    color: #c9a227;
+    font-size: 64px;
+  }
+  .soudanryou-p {
+    font-size: 32px;
+  }
+  .okigaruni-p {
+    font-size: 19px;
+  }
+  .mail-tel-btn {
+    font-size: 26px;
+  }
+  .benriya-p {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .heisha-p {
+    font-size: 15px;
+    line-height: 2;
+  }
+  .service-hiyou-p {
+    font-size: 32px;
+  }
+  .red-number {
+    font-size: 30px;
+  }
+  .card-in-red-p {
+    font-size: 23px;
+  }
+  .nedan-p {
+    font-size: 35px;
+  }
+  .nine-cards-width {
+    width: 1160px;
+  }
+  .benriya-bottom-p {
+    font-size: 20px;
+  }
+  .news-left-p {
+    font-size: 32px;
+  }
+  .red-people-img {
+    width: 90px;
+  }
+  .red-people-bottom {
+    font-size: 17px;
+  }
+  .sonota-p {
+    font-size: 17px;
+    line-height: 2;
+  }
+  .service-p {
+    font-size: 64px;
+  }
+  .service-bottom-small-p {
+    font-size: 16px;
+  }
+  .okomariya-p-width {
+    width: 1170px;
+  }
+  .okomariya-p {
+    font-size: 16px;
+    line-height: 2;
+  }
+  .red-check-img {
+    width: 70px;
+  }
+  .red-check-bottom {
+    font-size: 22px;
+  }
+  .about-us-p {
+    font-size: 48px;
+  }
+  .about-us-bottom-p {
+    font-size: 16px;
+  }
+  .about-us-width {
+    width: 1200px;
+  }
+  .anatano-p {
+    font-size: 20px;
+  }
+  .anatano-bottom-p {
+    font-size: 16px;
+  }
+  .before-yellow {
+    position: relative;
+    color: #000;
+    isolation: isolate;
+  }
+  .before-yellow::before {
+    content: "";
+    position: absolute;
+    width: 1300px;
+    height: 322px;
+    background-color: #000a75;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transform: translateY(-30px) translateX(250px);
+  }
+  .check-text {
+    color: transparent !important;
+    background: linear-gradient(
+      to bottom,
+      #fff 0,
+      #fff var(--blue-bottom, 0px),
+      #000 var(--blue-bottom, 0px),
+      #000 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .faq-p {
+    font-size: 64px;
+  }
+  .q-p {
+    font-size: 20px;
+  }
+  .a-p {
+    font-size: 16px;
+  }
+  .otoiawase-p {
+    font-size: 32px;
+  }
+  .tel-link {
+    font-size: 46px;
+  }
+  .goaisatu-width {
+    width: 1140px;
+  }
+  .goaisatu-p {
+    font-size: 15px;
+  }
+  .greeting-p {
+    font-size: 18px;
+  }
+  .greeting-p-bottom {
+    font-size: 30px;
+  }
+  .goaisatu-fv {
+    height: 190px;
+  }
+  .kaishagaiyou-p {
+    font-size: 40px;
+  }
+  .kaishagaiyou-p-bottom {
+    font-size: 16px;
+  }
+  .kaishagaiyou-hyou {
+    width: 1100px;
+  }
+  .td-p {
+    font-size: 15px;
+  }
+  .fw-fv-bold {
+    font-weight: bold;
+  }
+  .plan-width {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .image-wrap {
+    position: relative;
+    overflow: hidden;
+  }
+  .image-wrap::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .image-wrap img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 90%;
+    text-align: center;
+  }
+  .company-card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  }
+  .company-table {
+    margin: 0;
+    border-collapse: collapse;
+  }
+  .company-table tr {
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .company-table tr:last-child {
+    border-bottom: none;
+  }
+  .company-table td {
+    padding: 18px 22px;
+    vertical-align: middle;
+  }
+  .number {
+    width: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .title {
+    width: 230px;
+    background: #eef6ff;
+    color: #222;
+    font-weight: 700;
+  }
+  .value {
+    background: #fff;
+    color: #333;
+  }
+}
+@media screen and (max-width: 767px) {
+  .full {
+    width: 100%;
+  }
+  .half {
+    width: 100%;
+    display: block;
+  }
+  .w-640 {
+    width: 100%;
+  }
+  .news-card {
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .eleven-cards {
+    width: 90%;
+    font-size: 15px;
+  }
+  .flow-img-width {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .okomariya-p-width {
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+  .red-people-img {
+    width: 90px;
+  }
+  .red-check-img {
+    width: 70px;
+  }
+  .before-yellow {
+    position: relative;
+  }
+  .before-yellow::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background-color: #000a75;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transform: translateY(-30px);
+  }
+  .fv-left-text {
+    font-size: 17px;
+  }
+  .subete-p {
+    font-size: 17px;
+  }
+  .zero-p {
+    color: #c9a227;
+    font-size: 40px;
+  }
+  .soudanryou-p {
+    font-size: 17px;
+  }
+  .okigaruni-p {
+    font-size: 17px;
+  }
+  .benriya-p {
+    font-size: 19px;
+    line-height: 1.2;
+  }
+  .heisha-p {
+    font-size: 13px;
+    line-height: 2;
+  }
+  .service-hiyou-p {
+    font-size: 24px;
+  }
+  .red-number {
+    font-size: 20px;
+  }
+  .card-in-red-p {
+    font-size: 19px;
+  }
+  .nedan-p {
+    font-size: 25px;
+  }
+  .news-left-p {
+    font-size: 24px;
+  }
+  .red-people-bottom {
+    font-size: 15px;
+  }
+  .service-p {
+    font-size: 40px;
+  }
+  .sonota-p {
+    font-size: 15px;
+  }
+  .okomariya-p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .about-us-p {
+    font-size: 28px;
+  }
+  .about-us-bottom-p {
+    font-size: 14px;
+  }
+  .anatano-p {
+    font-size: 17px;
+  }
+  .anatano-bottom-p {
+    font-size: 14px;
+  }
+  .faq-p {
+    font-size: 40px;
+  }
+  .q-p {
+    font-size: 17px;
+  }
+  .a-p {
+    font-size: 14px;
+  }
+  .otoiawase-p {
+    font-size: 24px;
+  }
+  .tel-link {
+    font-size: 28px;
+  }
+  .mail-tel-btn {
+    font-size: 17px;
+  }
+  .goaisatu-width {
+    width: 100%;
+  }
+  .goaisatu-p {
+    font-size: 14px;
+  }
+  .greeting-p {
+    font-size: 18px;
+  }
+  .greeting-p-bottom {
+    font-size: 24px;
+  }
+  .goaisatu-fv {
+    height: 126px;
+  }
+  .kaishagaiyou-p {
+    font-size: 24px;
+  }
+  .kaishagaiyou-p-bottom {
+    font-size: 14px;
+  }
+  .td-p {
+    font-size: 14px;
+  }
+  .kaishagaiyou-hyou {
+    width: 100%;
+  }
+  .image-wrap {
+    position: relative;
+    overflow: hidden;
+  }
+  .image-wrap::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .image-wrap img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 90%;
+    text-align: center;
+  }
+  .fw-fv-bold {
+    font-weight: lighter;
+  }
+  .company-table td {
+    padding: 14px;
+    font-size: 14px;
+  }
+  .number {
+    width: 50px;
+    font-size: 15px;
+  }
+  .title {
+    width: 120px;
+  }
+  .plan-width {
+    width: 100%;
+  }
+  .plan-table th,
+  .plan-table td {
+    padding: 12px 8px;
+    font-size: 15px;
+  }
+  .plan-table thead th {
+    font-size: 18px;
+  }
+}

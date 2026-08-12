@@ -1,0 +1,335 @@
+.nomal-font {
+  font-family: "Zen Kaku Gothic New", "Zen Kaku Gothic New Fallback", sans-serif;
+}
+.bg-blue {
+  background-color: #000a75;
+}
+.bg-light-blue {
+  background: linear-gradient(to bottom, #e7e9ff 0%, #ffffff 100%);
+}
+.text-blue {
+  color: #000a75;
+}
+.border-blue {
+  border: 5px solid #000a75;
+}
+.border-red {
+  border: 5px solid #ff0000;
+}
+.border-orange {
+  border: 5px solid #c9a227;
+}
+.hover {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+.hover:hover {
+  opacity: 0.7;
+}
+.maru {
+  border-radius: 10px;
+}
+.maru-100 {
+  border-radius: 100px;
+}
+.cover-white {
+  padding: 1px;
+}
+.bg-orange {
+  background-color: #c9a227;
+}
+.text-orange {
+  color: #c9a227;
+}
+.bg-red {
+  background-color: #ff0000;
+}
+.text-red {
+  color: #ff0000;
+}
+.box-shadow {
+  box-shadow: 0 0 10px rgba(15, 15, 15, 0.2);
+}
+.margin-center {
+  margin: 0 auto;
+}
+.bg-yellow {
+  background-color: #e9fe00;
+}
+.oshare-font {
+  font-family: "Shippori Mincho", serif;
+}
+.bg-service {
+  background-image: linear-gradient(
+      rgba(201, 162, 39, 0.8),
+      rgba(255, 233, 160, 0.5)
+    ),
+    url("../img/service.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-contact {
+  background-image: linear-gradient(#000a75, rgb(2 117 194 / 66%)),
+    url("../img/contact.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-aisatu-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/kaishagaiyou.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-agency-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/kawari.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-calls-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/denwadaikou.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-emergency-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/kyuu.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-family-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/gokatei.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-fraud-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/sagi.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-infidelity-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/uwaki.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-neighbors-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/kinrin.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-news-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/news.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-online-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/sns.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-others-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/sonota.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-privacy-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/privacy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-reconciliation-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/fukuen.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-relationships-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/ningenkankei.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-safety-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/anzen.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-stalking-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/sutoka.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-workplace-page-fv {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/shokuba.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer-top {
+  font-size: 11px;
+}
+footer {
+  font-size: 11px;
+}
+.fade-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.maru-100-per {
+  border-radius: 100%;
+}
+.plan-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.plan-card-body {
+  flex-grow: 1;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+}
+.plan-table-wrap {
+  width: 100%;
+}
+.plan-table {
+  min-width: 1000px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.plan-table th,
+.plan-table td {
+  border: 1px solid #222;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 1.8;
+}
+.plan-table thead th:first-child,
+.plan-table tbody th {
+  width: 20%;
+}
+.plan-table tbody th,
+.plan-table-empty {
+  background-color: #ffffff;
+}
+.plan-table thead th {
+  color: #fff;
+  font-size: 22px;
+}
+.plan-table thead .plan-table-empty {
+  color: #222;
+}
+.plan-a {
+  background-color: #000a75 !important;
+}
+.plan-b {
+  background-color: #c9a227 !important;
+}
+.plan-c {
+  background-color: #000a75 !important;
+}
+.plan-d {
+  background-color: #c9a227 !important;
+}
+.plan-a-body {
+  background-color: #c9cdff !important;
+}
+.plan-b-body {
+  background-color: #fff0c0 !important;
+}
+.plan-c-body {
+  background-color: #c9cdff !important;
+}
+.plan-d-body {
+  background-color: #fff0c0 !important;
+}
+.plan-table sup {
+  font-size: 60%;
+}
