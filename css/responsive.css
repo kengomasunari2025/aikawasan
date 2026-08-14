@@ -498,6 +498,9 @@
     padding: 0 10% 0 10%;
   }
   .fv-bg-img {
-    height: 40vh;
+    height: 45vh;
+  }
+  .fv-h-100 {
+    height: 95vh;
   }
 }
