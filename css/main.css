@@ -2,22 +2,31 @@
   font-family: "Zen Kaku Gothic New", "Zen Kaku Gothic New Fallback", sans-serif;
 }
 .bg-blue {
-  background-color: #000a75;
+  background-color: #000b1d;
 }
 .bg-light-blue {
   background: linear-gradient(to bottom, #e7e9ff 0%, #ffffff 100%);
 }
+.bg-light-orange {
+  background: linear-gradient(to bottom, #c9aa78 0%, #593e12 100%);
+}
 .text-blue {
-  color: #000a75;
+  color: #000b1d;
 }
 .border-blue {
-  border: 5px solid #000a75;
+  border: 5px solid #000b1d;
 }
 .border-red {
   border: 5px solid #ff0000;
 }
 .border-orange {
-  border: 5px solid #c9a227;
+  border: 5px solid #c9aa78;
+}
+.border-orange-1 {
+  border: 1px solid #c9aa78;
+}
+.border-top-orange {
+  border-top: 1px solid #c9aa78;
 }
 .hover {
   opacity: 1;
@@ -36,10 +45,10 @@
   padding: 1px;
 }
 .bg-orange {
-  background-color: #c9a227;
+  background-color: #c9aa78;
 }
 .text-orange {
-  color: #c9a227;
+  color: #c9aa78;
 }
 .bg-red {
   background-color: #ff0000;
@@ -70,7 +79,7 @@
   background-repeat: no-repeat;
 }
 .bg-contact {
-  background-image: linear-gradient(#000a75, rgb(2 117 194 / 66%)),
+  background-image: linear-gradient(#000b1d, rgb(2 117 194 / 66%)),
     url("../img/contact.jpg");
   background-size: cover;
   background-position: center;
@@ -307,16 +316,16 @@ footer {
   color: #222;
 }
 .plan-a {
-  background-color: #000a75 !important;
+  background-color: #000b1d !important;
 }
 .plan-b {
-  background-color: #c9a227 !important;
+  background-color: #c9aa78 !important;
 }
 .plan-c {
-  background-color: #000a75 !important;
+  background-color: #000b1d !important;
 }
 .plan-d {
-  background-color: #c9a227 !important;
+  background-color: #c9aa78 !important;
 }
 .plan-a-body {
   background-color: #c9cdff !important;
@@ -332,4 +341,7 @@ footer {
 }
 .plan-table sup {
   font-size: 60%;
+}
+.gold-icon {
+  font-size: 35px;
 }
